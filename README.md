@@ -1,6 +1,7 @@
 # 3D_Game-10  
 视频链接：http://www.iqiyi.com/w_19rym3ugpl.html
 ### 大致效果  
+可以由host和client分别操纵人物的运动，其中任何一个host或者client的人物被巡逻兵抓到，则游戏都结束了，双方每逃过一个追捕，分数都会增加，是算在一起的。
 ![avatar](https://github.com/MockingT/3D_Game-10/blob/master/pictures/result.png)  
 ### 实现步骤  
 - 首先添加个一个空对象，在add component那里给他添加network manager以及network manager hud提供一个默认用户界面。  
